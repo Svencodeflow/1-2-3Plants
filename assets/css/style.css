@@ -1,0 +1,191 @@
+@font-face {
+    font-family: "frederick";
+    src: url("../fonts/frederick.ttf");
+}
+
+@font-face {
+    font-family: "sans";
+    src: url("../fonts/sans.ttf");
+}
+
+* {
+    margin: 0;
+}
+
+.before::before, .after::after {
+    content: "\A";
+    white-space: pre;
+}
+
+/* Header */
+
+.bg {
+    background-image: url("../img/Lev3_2_css-einführung_box-model_img.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.plants {
+    color: white;
+    font-family: "frederick";
+    font-size: 25px;
+    margin-left: 55px;
+    padding-top: 5px;
+}
+
+.div_header {
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    margin-top: 205px;
+    font-size: 35px;
+    width: 350px;
+}
+
+.p_egal {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin: 0 auto;
+    font-size: 20px;
+    width: 300px;
+}
+
+.read {
+    text-align: center;
+    border: 2px solid white;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+body header article a {
+    text-decoration: none;
+    color: white;
+}
+
+.read2:hover {
+    color: black;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.header_nav {
+    margin: 0 auto;
+    text-align: right;
+    margin-right: 120px;
+    margin-top: 45px;
+}
+
+body header section:nth-of-type(3) nav ul li {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.href_nav {
+    color: white;
+    text-decoration: none;
+}
+
+.href_nav:hover {
+    text-decoration: underline;
+    color: grey;
+}
+
+/* Main Section */
+
+.p_egal2 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 10px;
+    margin: 0 auto;
+    font-size: 15px;
+    width: 500px;
+}
+
+.div_contact {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 25px;
+    border: 2px solid black;
+    width: 100px;
+    padding: 10px;
+}
+
+main section div p {
+    padding-bottom: 5px;
+}
+
+.h2_main {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+
+/* bilder einweisung */
+
+.bild1 {
+    text-align: right;
+    width: 500px;
+    margin: 0 auto;
+    margin-left: 680px;
+}
+
+.bild1 p {
+    width: 298px;
+}
+
+.bild2 {
+    text-align: center;
+}
+
+/* footer */
+
+.footer {
+    background-color: grey;
+    border-radius: 20px 20px 0 0;
+    margin: 0 auto;
+    padding-top: 25px;
+    margin-top: 25px;
+}
+
+.p_footer {
+    width: 500px;
+    margin-left: 5px;
+}
+
+.href_footer {
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.href_footer2 {
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 5px;
+    color: white;
+    margin-left: 5px;
+}
+
+.href_footer2:hover {
+    background-color: white;
+    margin: 0 auto;
+    margin-left: 5px;
+    color: black;
+}
+
+.href_footer_nav {
+    text-align: right;
+    margin-right: 5px;
+    padding-bottom: 10px;
+}
+
+.href_footer_nav2 {
+    color: white;
+    text-decoration: none;
+}
